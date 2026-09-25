@@ -1,0 +1,8 @@
+[
+  { "id": "fulfillment", "name": "Fulfillment Agent", "layer": "Commerce", "status": "active", "job": "Issues unlocks and serves locker files." },
+  { "id": "entitlement", "name": "Entitlement Agent", "layer": "Customer", "status": "active", "job": "Signs and verifies access tokens." },
+  { "id": "refund", "name": "Refund Agent", "layer": "Customer", "status": "standby", "job": "Accepts refund requests. Owner approves money movement." },
+  { "id": "sales", "name": "Sales Agent", "layer": "Revenue", "status": "active", "job": "Sells the $9 priority locker only." },
+  { "id": "governance", "name": "Governance Agent", "layer": "Executive", "status": "active", "job": "Blocks subscriptions and dark patterns." },
+  { "id": "risk", "name": "Risk Agent", "layer": "Executive", "status": "active", "job": "Keeps demo mode on until keys exist." }
+]

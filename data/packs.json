@@ -1,0 +1,38 @@
+[
+  {
+    "id": "starter",
+    "name": "Starter Pack",
+    "price": 19,
+    "summary": "The first kit from the storefront. Unlocks the working files.",
+    "file": "/packs/starter.txt",
+    "preview": "You get the one-page operating sheet and the first week checklist.",
+    "paid": true
+  },
+  {
+    "id": "brief",
+    "name": "Agent Brief Pack",
+    "price": 29,
+    "summary": "The briefs other agents read before they act.",
+    "file": "/packs/brief.txt",
+    "preview": "You get three agent briefs and a decision log template.",
+    "paid": true
+  },
+  {
+    "id": "playbook",
+    "name": "Operator Playbook",
+    "price": 49,
+    "summary": "The full operator notes. Still a one-time buy.",
+    "file": "/packs/playbook.txt",
+    "preview": "You get the playbook, refund script, and weekly review sheet.",
+    "paid": true
+  },
+  {
+    "id": "priority",
+    "name": "Priority Locker",
+    "price": 9,
+    "summary": "Same files, plus the extra delivery pack and faster notes.",
+    "file": "/packs/priority.txt",
+    "preview": "A $9 add-on. No subscription. Extra templates only.",
+    "paid": true
+  }
+]
