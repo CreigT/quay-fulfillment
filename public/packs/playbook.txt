@@ -1,0 +1,16 @@
+QUAY / OPERATOR PLAYBOOK
+========================
+
+Daily
+- /api/health must return ok.
+- Refund inbox is the support email.
+
+Weekly
+- Count unlocks vs paid orders.
+- Count refund requests.
+- Keep prices in the $9–$49 band.
+
+Incident
+- Bad webhook signature → 400, do not grant.
+- Stripe down → stay in last good deploy.
+- Chargeback → Risk Agent + owner email.

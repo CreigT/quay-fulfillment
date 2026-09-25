@@ -1,0 +1,15 @@
+QUAY / STARTER PACK
+===================
+
+You bought the starter kit. Save this file.
+
+Week 1
+1. Deploy the storefront.
+2. Deploy this locker.
+3. Place one demo order.
+4. Open /unlock with the same email.
+5. Download this file.
+
+Do not add a subscription.
+Do not hide the price.
+The owner is not the clerk.

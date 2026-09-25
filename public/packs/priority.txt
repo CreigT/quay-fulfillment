@@ -1,0 +1,21 @@
+QUAY / PRIORITY LOCKER ($9)
+===========================
+
+Extra templates included with this add-on.
+
+Refund reply
+"Thanks. We received the request. The owner reviews refunds
+within 3 business days. Pack name and email help us find it."
+
+Weekly review
+- Orders
+- Unlocks
+- Refunds
+- Failed webhooks
+- Demo vs live mix
+
+Incident log
+Date:
+What broke:
+Who was told:
+What we changed:

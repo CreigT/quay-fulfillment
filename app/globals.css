@@ -1,0 +1,87 @@
+:root {
+  --paper: #f4efe4;
+  --ink: #1b1814;
+  --muted: #6b6458;
+  --line: #d9d0c0;
+  --rust: #c45c26;
+  --rust-dark: #9a4318;
+  --moss: #2f6f4e;
+  --card: #fffaf2;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.55;
+}
+a { color: var(--rust-dark); }
+.wrap { max-width: 820px; margin: 0 auto; padding: 0 20px; }
+header.top {
+  border-bottom: 1px solid var(--line);
+  padding: 16px 0;
+  background: #efe8d9;
+}
+header.top .wrap, footer.bot .wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.brand { font-weight: 700; text-decoration: none; color: var(--ink); font-size: 22px; }
+nav a { margin-left: 14px; text-decoration: none; color: var(--ink); font-size: 15px; }
+h1 { font-size: 42px; line-height: 1.15; margin: 28px 0 12px; }
+h2 { font-size: 24px; margin: 28px 0 10px; }
+p.lead { font-size: 20px; color: var(--muted); margin-top: 0; }
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 18px 20px;
+  margin: 14px 0;
+}
+.row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+button, .btn {
+  background: var(--rust);
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Georgia, serif;
+}
+.btn.ghost {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--line);
+}
+label { display: block; margin: 10px 0 4px; font-size: 14px; }
+input, textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: inherit;
+  background: white;
+}
+.muted { color: var(--muted); font-size: 14px; }
+.ok { color: var(--moss); }
+.price { font-size: 28px; }
+footer.bot {
+  margin-top: 60px;
+  border-top: 1px solid var(--line);
+  padding: 20px 0 40px;
+  color: var(--muted);
+  font-size: 14px;
+}
+.grid { display: grid; grid-template-columns: 1fr; gap: 12px; }
+@media (min-width: 700px) {
+  .grid.two { grid-template-columns: 1fr 1fr; }
+}
+code { background: #efe8d9; padding: 1px 6px; border-radius: 4px; }
